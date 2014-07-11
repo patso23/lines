@@ -1,17 +1,36 @@
 $(function()
 {
+    $.ajaxSetup({ cache: false });	
 
- $('#upload').dialog(
+
+
+    var options = 
     {
-        title: 'Attach File',
-        autoOpen: false,
-        modal: false,
-        width: 350,
-        height: 200,
-        resizable: false
+        target: "#error",
+        success: ajaxify,
+        "ajax": true
+
+    }
+
+
+    function ajaxify(response, status, xhr, form)
+    {
+
+        $("#LineUpload").ajaxForm(options);
+
+    }
+
+    $("#LineUpload").ajaxForm(options);
+
+    $('#LineUpload').submit(function() {
+        $(this).ajaxSubmit(options);
+        return false;
     });
 
 
 
 
+
 });
+
+
