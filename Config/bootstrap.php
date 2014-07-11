@@ -99,7 +99,7 @@ Configure::write('Config.language', 'eng');
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
-
+CakePlugin::load('Uploader');
 Configure::write('Dispatcher.filters', array('AssetDispatcher', 'CacheDispatcher'));
 
 

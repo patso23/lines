@@ -273,3 +273,170 @@ Stack Trace:
 #3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-07-11 16:05:23 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/lines/Controller/LinesController.php, line 130]
+2014-07-11 16:05:23 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 130)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 130, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 130, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:05:50 Error: Fatal Error (4): syntax error, unexpected '$_schema' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/lines/Model/Line.php, line 5]
+2014-07-11 16:05:50 Error: [FatalErrorException] syntax error, unexpected '$_schema' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 5, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 5, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:06:22 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/var/www/lines/Model/Line.php, line 86]
+2014-07-11 16:06:22 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 86, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 86, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:06:36 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [/var/www/lines/Model/Line.php, line 101]
+2014-07-11 16:06:36 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 101)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 101, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 101, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:06:45 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
+2014-07-11 16:06:45 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:07:27 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
+2014-07-11 16:07:27 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:07:43 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
+2014-07-11 16:07:43 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:08:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
+2014-07-11 16:08:02 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:09:15 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
+2014-07-11 16:09:15 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:09:16 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
+2014-07-11 16:09:16 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /lines
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 16:51:15 Error: post!
+2014-07-11 16:52:21 Error: post!
+2014-07-11 16:53:55 Error: post!
+2014-07-11 16:54:54 Error: post!
+2014-07-11 16:57:26 Error: post!
+2014-07-11 16:57:34 Error: post!
+2014-07-11 16:59:15 Error: post!
+2014-07-11 17:10:32 Error: post!
+2014-07-11 17:11:01 Error: post!
+2014-07-11 17:11:01 Error: in here
+2014-07-11 17:11:14 Error: post!
+2014-07-11 17:11:14 Error: Resource id #11
+2014-07-11 17:12:13 Error: post!
+2014-07-11 17:12:34 Error: post!
+2014-07-11 17:12:34 Error: Resource id #10
+2014-07-11 17:12:52 Error: post!
+2014-07-11 17:12:52 Error: Resource id #11
+2014-07-11 17:13:05 Error: post!
+2014-07-11 17:13:05 Error: Resource id #11
+2014-07-11 17:13:14 Error: post!
+2014-07-11 17:13:14 Error: Resource id #9
+2014-07-11 17:14:01 Error: post!
+2014-07-11 17:14:01 Error: Resource id #11
+2014-07-11 17:14:01 Error: in if
+2014-07-11 17:14:53 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [/var/www/lines/Controller/LinesController.php, line 162]
+2014-07-11 17:14:53 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /lines/upload
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 162)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 162, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 162, Array)
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-11 17:15:03 Error: post!
+2014-07-11 17:15:03 Error: Resource id #11
+2014-07-11 17:15:03 Error: in if
+2014-07-11 17:15:03 Error: 
+2014-07-11 17:15:33 Error: post!
+2014-07-11 17:15:33 Error: Resource id #10
+2014-07-11 17:15:33 Error: in if
+2014-07-11 17:15:33 Error: 
+2014-07-11 17:20:00 Error: post!
+2014-07-11 17:20:00 Error: Resource id #20
+2014-07-11 17:20:00 Error: in if
+2014-07-11 17:20:18 Error: post!
+2014-07-11 17:20:18 Error: Resource id #11
+2014-07-11 17:20:18 Error: in if
+2014-07-11 17:20:21 Error: post!
+2014-07-11 17:20:21 Error: Resource id #9
+2014-07-11 17:20:21 Error: in if
+2014-07-11 17:20:22 Error: post!
+2014-07-11 17:20:22 Error: Resource id #9
+2014-07-11 17:20:22 Error: in if
+2014-07-11 17:20:23 Error: post!
+2014-07-11 17:20:23 Error: Resource id #9
+2014-07-11 17:20:23 Error: in if
+2014-07-11 17:21:23 Error: post!
+2014-07-11 17:21:23 Error: Resource id #11
+2014-07-11 17:21:23 Error: in if
+2014-07-11 17:22:27 Error: post!
+2014-07-11 17:22:27 Error: Resource id #11
+2014-07-11 17:22:27 Error: in if
+2014-07-11 17:22:27 Error: 
+2014-07-11 17:22:45 Error: post!
+2014-07-11 17:22:46 Error: in if
+2014-07-11 17:22:46 Error: 

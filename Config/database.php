@@ -63,11 +63,12 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'patso',
+		'login' => 'root',
 		'password' => 'zero11235',
-		'database' => 'lines',
-		'prefix' => '',
-		//'encoding' => 'utf8',
+		'database' => 'transit',
+        'schema' => '',
+        'prefix' => '',
+		'encoding' => 'utf8',
 	);
 
 }

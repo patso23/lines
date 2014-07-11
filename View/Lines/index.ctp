@@ -22,5 +22,6 @@ foreach($lines as $line)
     )));
 
 echo $this->Html->link('Add', array('controller' => 'lines', 'action' => 'add'), array('style' => 'margin-right:10px;'));
-echo $this->Html->link('Sort', array('controller' => 'lines', true));
+echo $this->Html->link('Import CSV File', array('controller' => 'lines', 'action' => 'upload'), array('style' => 'margin-right:10px;'));
+echo $this->Html->link('Sort by run #', array('controller' => 'lines', true));
 ?>

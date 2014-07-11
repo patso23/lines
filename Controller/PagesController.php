@@ -41,16 +41,15 @@ class PagesController extends AppController {
      *
      * @var array
      */
-    public $uses = array('Message');
+    public $uses = array();
 
-    public $components = array('Customer');
+    public $components = array();
 
     public function beforeFilter()
     {
         parent::beforeFilter();
 
 
-        $this->Auth->allow();
     }
 
 
