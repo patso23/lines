@@ -28,8 +28,7 @@ CREATE TABLE `lines` (
   `route` varchar(50) DEFAULT NULL,
   `run_number` varchar(50) DEFAULT NULL,
   `operator_id` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `train_line` (`train_line`,`route`,`run_number`,`operator_id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -39,7 +38,7 @@ CREATE TABLE `lines` (
 
 LOCK TABLES `lines` WRITE;
 /*!40000 ALTER TABLE `lines` DISABLE KEYS */;
-INSERT INTO `lines` VALUES (4,'Amtrak','Hiawatha','A006','LBeck'),(7,'El','BlueLine','B123','ditka'),(10,'El','BlueLine','Z777','me'),(1,'El','BrownLine','E102','SJones'),(5,'El','RedLine','E432','LHill'),(2,'Metra','UPN','M405','AJohnson'),(3,'Metra','UPNW','M511','YSmith');
+INSERT INTO `lines` VALUES (1,'El','BrownLine','E102','SJones'),(2,'Metra','UPN','M405','AJohnson'),(3,'Metra','UPNW','M511','YSmith'),(4,'Amtrak','Hiawatha','A006','LBeck'),(5,'El','RedLine','E432','LHill'),(7,'El','BlueLine','B123','ditka'),(10,'El','BlueLine','Z777','me');
 /*!40000 ALTER TABLE `lines` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-07-11 19:47:59
+-- Dump completed on 2014-07-11 20:08:56

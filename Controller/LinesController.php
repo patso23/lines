@@ -10,6 +10,7 @@ class LinesController extends AppController {
     public $components = array('Session');
 
     public function index($sort = null) {
+        $this->log('test');
 
         if($sort)
         {
@@ -150,7 +151,15 @@ class LinesController extends AppController {
 
                                 $this->Line->set(array('train_line' => $tmp[0], 'route' => $tmp[1], 'run_number' => $tmp[2], 'operator_id' => $tmp[3]));
 
-                                $result = $this->Line->save();
+                                try
+                                {
+
+                                        $result = $this->Line->save();
+                                }
+                                catch(Exception $e)
+                                {
+                                    $this->Session->setFlash('One or more of those records already exist.');
+                                }
 
                                 if(!$result)
                                 {
