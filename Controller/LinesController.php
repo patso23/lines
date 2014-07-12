@@ -10,7 +10,6 @@ class LinesController extends AppController {
     public $components = array('Session');
 
     public function index($sort = null) {
-        $this->log('test');
 
         if($sort)
         {
@@ -146,36 +145,29 @@ class LinesController extends AppController {
                             if($count != 0)
                             {
 
+
                                 $this->Line->create();
                                 $tmp = explode(',', $string);
-
-                                $this->Line->set(array('train_line' => $tmp[0], 'route' => $tmp[1], 'run_number' => $tmp[2], 'operator_id' => $tmp[3]));
-
-                                try
+                                
+                                if($tmp[0] != null)
                                 {
+
+                                    $this->Line->set(array('train_line' => $tmp[0], 'route' => $tmp[1], 'run_number' => $tmp[2], 'operator_id' => $tmp[3]));
 
                                         $result = $this->Line->save();
-                                }
-                                catch(Exception $e)
-                                {
-                                    $this->Session->setFlash('One or more of those records already exist.');
-                                }
 
-                                if(!$result)
-                                {
-                                    $this->Session->setFlash('Failed to import csv.');
-                                    $this->redirect($this->here);
+                                    if(!$result)
+                                    {
+                                        $this->Session->setFlash('Failed to import csv.');
+                                        $this->redirect($this->here);
+                                    }
                                 }
                             }
 
                             $count++;
                         }
 
-                        $this->redirect(array('controller' => 'lines', 'action' => 'index'));
                     }
-
-
-
 
 
                 }

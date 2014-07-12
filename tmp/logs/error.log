@@ -1,3 +1,655 @@
-2014-07-11 20:03:34 Error: test
-2014-07-11 20:04:01 Error: test
-2014-07-11 20:04:03 Error: test
+2014-07-11 20:15:11 Error: test
+2014-07-11 20:15:27 Error: string 
+2014-07-11 20:15:27 Error: string El, BrownLine, E102, SJones
+2014-07-11 20:15:27 Error: string 
+2014-07-11 20:15:27 Error: string Metra, UPN, M405, AJohnson
+2014-07-11 20:15:27 Error: string 
+2014-07-11 20:15:27 Error: string Metra, UPNW, M511, YSmith
+2014-07-11 20:15:27 Error: string 
+2014-07-11 20:15:27 Error: string Amtrak, Hiawatha, A006, LBeck
+2014-07-11 20:15:27 Error: string 
+2014-07-11 20:15:27 Error: string El, RedLine, E432, LHill
+2014-07-11 20:15:27 Error: string 
+2014-07-11 20:15:27 Error: string Amtrak, Hiawatha, A005, LBeck
+2014-07-11 20:16:11 Error: test
+2014-07-11 20:16:13 Error: test
+2014-07-11 20:16:14 Error: test
+2014-07-11 20:16:14 Error: test
+2014-07-11 20:16:15 Error: test
+2014-07-11 20:16:15 Error: test
+2014-07-11 20:16:16 Error: test
+2014-07-11 20:16:16 Error: test
+2014-07-11 20:16:16 Error: test
+2014-07-11 20:16:17 Error: test
+2014-07-11 20:16:17 Error: test
+2014-07-11 20:16:17 Error: test
+2014-07-11 20:16:18 Error: test
+2014-07-11 20:16:18 Error: test
+2014-07-11 20:16:19 Error: test
+2014-07-11 20:16:19 Error: test
+2014-07-11 20:16:19 Error: test
+2014-07-11 20:16:20 Error: test
+2014-07-11 20:16:20 Error: test
+2014-07-11 20:16:20 Error: test
+2014-07-11 20:16:21 Error: test
+2014-07-11 20:16:21 Error: test
+2014-07-11 20:16:21 Error: test
+2014-07-11 20:16:22 Error: test
+2014-07-11 20:16:22 Error: test
+2014-07-11 20:16:22 Error: test
+2014-07-11 20:16:23 Error: test
+2014-07-11 20:16:23 Error: test
+2014-07-11 20:16:23 Error: test
+2014-07-11 20:16:23 Error: test
+2014-07-11 20:16:24 Error: test
+2014-07-11 20:16:24 Error: test
+2014-07-11 20:16:24 Error: test
+2014-07-11 20:16:25 Error: test
+2014-07-11 20:16:25 Error: test
+2014-07-11 20:16:25 Error: test
+2014-07-11 20:16:26 Error: test
+2014-07-11 20:16:41 Error: test
+2014-07-11 20:16:44 Error: test
+2014-07-11 20:17:55 Error: test
+2014-07-11 20:17:58 Error: test
+2014-07-11 20:26:03 Error: test
+2014-07-11 20:26:13 Error: test
+2014-07-11 20:26:56 Error: test
+2014-07-11 20:26:57 Error: test
+2014-07-11 20:26:58 Error: test
+2014-07-11 20:26:59 Error: test
+2014-07-11 20:26:59 Error: test
+2014-07-11 20:27:00 Error: test
+2014-07-11 20:27:00 Error: test
+2014-07-11 20:27:01 Error: test
+2014-07-11 20:27:01 Error: test
+2014-07-11 20:27:02 Error: test
+2014-07-11 20:27:02 Error: test
+2014-07-11 20:27:03 Error: test
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:09 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 20:27:31 Error: test
+2014-07-11 20:27:33 Error: test
+2014-07-11 20:27:35 Error: test
+2014-07-11 20:27:36 Error: test
+2014-07-11 20:27:36 Error: test
+2014-07-11 20:27:37 Error: test
+2014-07-11 20:27:37 Error: test
+2014-07-11 20:27:38 Error: test
+2014-07-11 20:27:38 Error: test
+2014-07-11 20:27:38 Error: test
+2014-07-11 20:27:38 Error: test
+2014-07-11 20:27:39 Error: test
+2014-07-11 20:27:39 Error: test
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:27:45 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 20:27:51 Error: test
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:28:26 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 20:28:29 Error: test
+2014-07-11 20:30:03 Error: test
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:30:09 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 20:30:15 Error: test
+2014-07-11 20:31:46 Error: test
+2014-07-11 20:31:48 Error: test
+2014-07-11 20:31:48 Error: test
+2014-07-11 20:31:49 Error: test
+2014-07-11 20:31:49 Error: test
+2014-07-11 20:31:49 Error: test
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:31:55 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 20:31:55 Error: after!
+2014-07-11 20:33:38 Error: test
+2014-07-11 20:33:40 Error: test
+2014-07-11 20:33:41 Error: test
+2014-07-11 20:33:41 Error: test
+2014-07-11 20:33:42 Error: test
+2014-07-11 20:33:42 Error: test
+2014-07-11 20:33:42 Error: test
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:33:50 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 20:33:50 Error: after!
+2014-07-11 20:34:27 Error: test
+2014-07-11 20:34:28 Error: test
+2014-07-11 20:34:30 Error: test
+2014-07-11 20:34:30 Error: test
+2014-07-11 20:34:31 Error: test
+2014-07-11 20:34:31 Error: test
+2014-07-11 20:34:32 Error: test
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 20:34:38 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 20:34:38 Error: after!
+2014-07-11 20:34:42 Error: test

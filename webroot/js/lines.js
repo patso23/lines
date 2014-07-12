@@ -3,7 +3,6 @@ $(function()
     $.ajaxSetup({ cache: false });	
 
 
-
     var options = 
     {
         target: "#error",
@@ -17,17 +16,18 @@ $(function()
     {
 
         $("#LineUpload").ajaxForm(options);
-
     }
 
     $("#LineUpload").ajaxForm(options);
 
     $('#LineUpload').submit(function() {
         $(this).ajaxSubmit(options);
+        
+        setTimeout(function(){
+         window.location.href = '/lines/index';
+        }, 2000);
         return false;
     });
-
-
 
 
 
