@@ -5,28 +5,31 @@ echo $this->Html->script('jquery.form.js');
 echo $this->Html->script('jquery.maskedinput-1.3.min.js');
 echo $this->Html->script('lines');
 
- echo $this->Html->div(null, implode("", array(
-        $this->Form->create('Line', array(
-            'type' => 'file',
-            'controller' => 'lines',
-            'action' => 'upload',
-            'id' => 'LineUpload',
-            'default' => false
-        )),
+
+echo $this->element('menu');
+
+echo $this->Html->div(null, implode("", array(
+    $this->Form->create('Line', array(
+        'type' => 'file',
+        'controller' => 'lines',
+        'action' => 'upload',
+        'id' => 'LineUpload',
+        'default' => false
+    )),
 
 
-        $this->Form->input('file', array('type' => 'file', 'label' => null, 'value' => null)),
+    $this->Form->input('file', array('type' => 'file', 'label' => null, 'value' => null)),
 
 
 
 
-        # form buttons
-        $this->Form->submit('Upload', array('id' => 'AddFile', 'div' => false )),
+    # form buttons
+    $this->Form->submit('Upload', array('id' => 'AddFile', 'div' => false )),
 
-        # form end: file upload
-        $this->Form->end(),
+    # form end: file upload
+    $this->Form->end(),
 
-    )), array('id' => 'upload'));
+)), array('id' => 'upload'));
 
 
 

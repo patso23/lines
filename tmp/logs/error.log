@@ -1,442 +1,606 @@
-2014-07-11 14:15:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
-Exception Attributes: array (
-  'class' => 'Mysql',
-  'message' => 'Selected driver is not enabled',
-  'enabled' => false,
+2014-07-11 19:07:18 Error: post!
+2014-07-11 19:07:36 Error: post!
+2014-07-11 19:07:42 Error: post!
+2014-07-11 19:08:00 Error: post!
+2014-07-11 19:08:00 Error: here
+2014-07-11 19:08:15 Error: post!
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => 
 )
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3310): Model->setSource('lines')
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): Model->getDataSource()
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(9): Model->find('all')
-#7 [internal function]: LinesController->index()
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:17:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
-Exception Attributes: array (
-  'class' => 'Mysql',
-  'message' => 'Selected driver is not enabled',
-  'enabled' => false,
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
 )
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3310): Model->setSource('lines')
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): Model->getDataSource()
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(9): Model->find('all')
-#7 [internal function]: LinesController->index()
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:19:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
-Exception Attributes: array (
-  'class' => 'Mysql',
-  'message' => 'Selected driver is not enabled',
-  'enabled' => false,
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => 
 )
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3310): Model->setSource('lines')
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): Model->getDataSource()
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(9): Model->find('all')
-#7 [internal function]: LinesController->index()
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:19:53 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
-Exception Attributes: array (
-  'class' => 'Mysql',
-  'message' => 'Selected driver is not enabled',
-  'enabled' => false,
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
 )
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(3310): Model->setSource('lines')
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): Model->getDataSource()
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(9): Model->find('all')
-#7 [internal function]: LinesController->index()
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:27:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/lines/View/Lines/index.ctp, line 10]
-2014-07-11 14:27:30 Error: [FatalErrorException] syntax error, unexpected ';'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 10)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 10, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 10, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 14:30:22 Error: Fatal Error (4): syntax error, unexpected '}', expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 10]
-2014-07-11 14:30:22 Error: [FatalErrorException] syntax error, unexpected '}', expecting ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 10)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 10, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 10, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 14:38:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'train_line, route,  run_number, operator_id' in 'field list'
-Request URL: /lines/index/1
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT DISTINCT...', Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT DISTINCT...', Array, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT DISTINCT...', false)
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): DboSource->read(Object(Line), Array)
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(12): Model->find('all', Array)
-#7 [internal function]: LinesController->index('1')
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:38:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Line`.`run_number`, `Line`.`operator_id` FROM `transit`.`lines` AS `Li' at line 1
-Request URL: /lines/index/1
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Line`.`...', Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Line`.`...', Array, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Line`.`...', false)
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): DboSource->read(Object(Line), Array)
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(12): Model->find('all', Array)
-#7 [internal function]: LinesController->index('1')
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:41:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Line`.`run_number`, `Line`.`operator_id` FROM `transit`.`lines` AS `Li' at line 1
-Request URL: /lines/index/1
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Line`.`...', Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Line`.`...', Array, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Line`.`...', false)
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): DboSource->read(Object(Line), Array)
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(12): Model->find('all', Array)
-#7 [internal function]: LinesController->index('1')
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:43:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Line`.`run_number`, `Line`.`operator_id` FROM `transit`.`lines` AS `Li' at line 1
-Request URL: /lines/index/1
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Line`.`...', Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Line`.`...', Array, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Line`.`...', false)
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): DboSource->read(Object(Line), Array)
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(12): Model->find('all', Array)
-#7 [internal function]: LinesController->index('1')
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:44:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Line`.`run_number`, `Line`.`operator_id` FROM `transit`.`lines` AS `Li' at line 1
-Request URL: /lines/index/1
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Line`.`...', Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Line`.`...', Array, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Line`.`...', false)
-#4 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2750): DboSource->read(Object(Line), Array)
-#5 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(2722): Model->_readDataSource('all', Array)
-#6 /var/www/lines/Controller/LinesController.php(12): Model->find('all', Array)
-#7 [internal function]: LinesController->index('1')
-#8 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
-#9 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#10 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2014-07-11 14:48:07 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 11]
-2014-07-11 14:48:07 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
-Request URL: /lines/index/1
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 11)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 11, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 11, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 14:56:34 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/lines/View/Lines/index.ctp, line 24]
-2014-07-11 14:56:34 Error: [FatalErrorException] syntax error, unexpected ';'
-Request URL: /lines/index/1
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 24)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 24, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 24, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 14:59:14 Error: [MissingActionException] Action LinesController::update() could not be found.
-Exception Attributes: array (
-  'controller' => 'LinesController',
-  'action' => 'update',
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => 
 )
-Request URL: /lines/update/6
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
-#1 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
-#2 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2014-07-11 15:03:44 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/var/www/lines/Controller/LinesController.php, line 58]
-2014-07-11 15:03:44 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
-Request URL: /lines/update/6
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 58)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 58, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 58, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 15:04:05 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [/var/www/lines/Controller/LinesController.php, line 57]
-2014-07-11 15:04:05 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
-Request URL: /lines/update/6
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 57)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 57, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 57, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 15:13:06 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/lines/Controller/LinesController.php, line 44]
-2014-07-11 15:13:06 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
-Request URL: /lines/add
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/lines/...', 44)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/lines/...', 44, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/lines/...', 44, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 15:24:43 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/lines/Controller/LinesController.php, line 49]
-2014-07-11 15:24:43 Error: [FatalErrorException] syntax error, unexpected ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 49)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 49, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 49, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 15:27:13 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/lines/Controller/LinesController.php, line 49]
-2014-07-11 15:27:13 Error: [FatalErrorException] Call to a member function save() on a non-object
-Request URL: /lines/update/8
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/lines/...', 49)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/lines/...', 49, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/lines/...', 49, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 15:28:09 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/var/www/lines/Controller/LinesController.php, line 64]
-2014-07-11 15:28:09 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
-Request URL: /lines/update/8
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 64)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 64, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 64, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:05:23 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/lines/Controller/LinesController.php, line 130]
-2014-07-11 16:05:23 Error: [FatalErrorException] syntax error, unexpected ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 130)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 130, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 130, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:05:50 Error: Fatal Error (4): syntax error, unexpected '$_schema' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/lines/Model/Line.php, line 5]
-2014-07-11 16:05:50 Error: [FatalErrorException] syntax error, unexpected '$_schema' (T_VARIABLE), expecting function (T_FUNCTION)
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 5)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 5, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 5, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:06:22 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/var/www/lines/Model/Line.php, line 86]
-2014-07-11 16:06:22 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 86)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 86, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 86, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:06:36 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [/var/www/lines/Model/Line.php, line 101]
-2014-07-11 16:06:36 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 101)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 101, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 101, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:06:45 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
-2014-07-11 16:06:45 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:07:27 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
-2014-07-11 16:07:27 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:07:43 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
-2014-07-11 16:07:43 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:08:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
-2014-07-11 16:08:02 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:09:15 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
-2014-07-11 16:09:15 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:09:16 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/lines/View/Lines/index.ctp, line 25]
-2014-07-11 16:09:16 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
-Request URL: /lines
-Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 25)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 25, Array)
-#3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2014-07-11 16:51:15 Error: post!
-2014-07-11 16:52:21 Error: post!
-2014-07-11 16:53:55 Error: post!
-2014-07-11 16:54:54 Error: post!
-2014-07-11 16:57:26 Error: post!
-2014-07-11 16:57:34 Error: post!
-2014-07-11 16:59:15 Error: post!
-2014-07-11 17:10:32 Error: post!
-2014-07-11 17:11:01 Error: post!
-2014-07-11 17:11:01 Error: in here
-2014-07-11 17:11:14 Error: post!
-2014-07-11 17:11:14 Error: Resource id #11
-2014-07-11 17:12:13 Error: post!
-2014-07-11 17:12:34 Error: post!
-2014-07-11 17:12:34 Error: Resource id #10
-2014-07-11 17:12:52 Error: post!
-2014-07-11 17:12:52 Error: Resource id #11
-2014-07-11 17:13:05 Error: post!
-2014-07-11 17:13:05 Error: Resource id #11
-2014-07-11 17:13:14 Error: post!
-2014-07-11 17:13:14 Error: Resource id #9
-2014-07-11 17:14:01 Error: post!
-2014-07-11 17:14:01 Error: Resource id #11
-2014-07-11 17:14:01 Error: in if
-2014-07-11 17:14:53 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [/var/www/lines/Controller/LinesController.php, line 162]
-2014-07-11 17:14:53 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:08:15 Error: here
+2014-07-11 19:08:15 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 19:08:34 Error: post!
+2014-07-11 19:08:34 Error: Fatal Error (1): [] operator not supported for strings in [/var/www/lines/Controller/LinesController.php, line 133]
+2014-07-11 19:08:34 Error: [FatalErrorException] [] operator not supported for strings
 Request URL: /lines/upload
 Stack Trace:
-#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/lines/...', 162)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/lines/...', 162, Array)
-#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/lines/...', 162, Array)
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, '[] operator not...', '/var/www/lines/...', 133)
+#1 [internal function]: ErrorHandler::handleError(1, '[] operator not...', '/var/www/lines/...', 133, Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, '[] operator not...', '/var/www/lines/...', 133, Array)
 #3 /usr/share/cakephp-2.4.0/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
-2014-07-11 17:15:03 Error: post!
-2014-07-11 17:15:03 Error: Resource id #11
-2014-07-11 17:15:03 Error: in if
-2014-07-11 17:15:03 Error: 
-2014-07-11 17:15:33 Error: post!
-2014-07-11 17:15:33 Error: Resource id #10
-2014-07-11 17:15:33 Error: in if
-2014-07-11 17:15:33 Error: 
-2014-07-11 17:20:00 Error: post!
-2014-07-11 17:20:00 Error: Resource id #20
-2014-07-11 17:20:00 Error: in if
-2014-07-11 17:20:18 Error: post!
-2014-07-11 17:20:18 Error: Resource id #11
-2014-07-11 17:20:18 Error: in if
-2014-07-11 17:20:21 Error: post!
-2014-07-11 17:20:21 Error: Resource id #9
-2014-07-11 17:20:21 Error: in if
-2014-07-11 17:20:22 Error: post!
-2014-07-11 17:20:22 Error: Resource id #9
-2014-07-11 17:20:22 Error: in if
-2014-07-11 17:20:23 Error: post!
-2014-07-11 17:20:23 Error: Resource id #9
-2014-07-11 17:20:23 Error: in if
-2014-07-11 17:21:23 Error: post!
-2014-07-11 17:21:23 Error: Resource id #11
-2014-07-11 17:21:23 Error: in if
-2014-07-11 17:22:27 Error: post!
-2014-07-11 17:22:27 Error: Resource id #11
-2014-07-11 17:22:27 Error: in if
-2014-07-11 17:22:27 Error: 
-2014-07-11 17:22:45 Error: post!
-2014-07-11 17:22:46 Error: in if
-2014-07-11 17:22:46 Error: 
+2014-07-11 19:09:24 Error: post!
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:09:25 Error: here
+2014-07-11 19:09:25 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 19:16:50 Error: post!
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:16:50 Error: here
+2014-07-11 19:16:50 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 19:17:21 Error: post!
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => 
+            [route] => 
+            [run_number] => 
+            [operator_id] => 
+            [id] => 13
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => El
+    [1] =>  BrownLine
+    [2] =>  E102
+    [3] =>  SJones
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => El
+            [route] =>  BrownLine
+            [run_number] =>  E102
+            [operator_id] =>  SJones
+            [id] => 14
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => 
+            [route] => 
+            [run_number] => 
+            [operator_id] => 
+            [id] => 15
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPN
+    [2] =>  M405
+    [3] =>  AJohnson
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => Metra
+            [route] =>  UPN
+            [run_number] =>  M405
+            [operator_id] =>  AJohnson
+            [id] => 16
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => 
+            [route] => 
+            [run_number] => 
+            [operator_id] => 
+            [id] => 17
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => Metra
+    [1] =>  UPNW
+    [2] =>  M511
+    [3] =>  YSmith
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => Metra
+            [route] =>  UPNW
+            [run_number] =>  M511
+            [operator_id] =>  YSmith
+            [id] => 18
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => 
+            [route] => 
+            [run_number] => 
+            [operator_id] => 
+            [id] => 19
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A006
+    [3] =>  LBeck
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => Amtrak
+            [route] =>  Hiawatha
+            [run_number] =>  A006
+            [operator_id] =>  LBeck
+            [id] => 20
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => 
+            [route] => 
+            [run_number] => 
+            [operator_id] => 
+            [id] => 21
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => El
+    [1] =>  RedLine
+    [2] =>  E432
+    [3] =>  LHill
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => El
+            [route] =>  RedLine
+            [run_number] =>  E432
+            [operator_id] =>  LHill
+            [id] => 22
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => 
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => 
+            [route] => 
+            [run_number] => 
+            [operator_id] => 
+            [id] => 23
+        )
+
+)
+
+2014-07-11 19:17:21 Error: here
+2014-07-11 19:17:21 Error: Array
+(
+    [0] => Amtrak
+    [1] =>  Hiawatha
+    [2] =>  A005
+    [3] =>  LBeck
+)
+
+2014-07-11 19:17:21 Error: Array
+(
+    [Line] => Array
+        (
+            [train_line] => Amtrak
+            [route] =>  Hiawatha
+            [run_number] =>  A005
+            [operator_id] =>  LBeck
+            [id] => 24
+        )
+
+)
+
+2014-07-11 19:17:35 Error: post!
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:17:35 Error: here
+2014-07-11 19:17:35 Error: resultArray
+2014-07-11 19:18:06 Error: post!
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:18:06 Error: here
+2014-07-11 19:18:06 Error: resultArray
+2014-07-11 19:23:04 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Amtrak-Hiawatha-A005-LBeck' for key 'train_line'
+Request URL: /lines/add
+Stack Trace:
+#0 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `tr...', Array)
+#2 /usr/share/cakephp-2.4.0/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `tr...')
+#3 /usr/share/cakephp-2.4.0/lib/Cake/Model/Model.php(1761): DboSource->create(Object(Line), Array, Array)
+#4 /var/www/lines/Controller/LinesController.php(90): Model->save(Array)
+#5 [internal function]: LinesController->add()
+#6 /usr/share/cakephp-2.4.0/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LinesController), Array)
+#7 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/share/cakephp-2.4.0/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(LinesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/lines/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

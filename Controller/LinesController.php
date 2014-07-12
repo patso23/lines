@@ -14,13 +14,13 @@ class LinesController extends AppController {
         if($sort)
         {
             $this->Line->data = $this->Line->find('all', array('fields' => array('DISTINCT Line.run_number', 'Line.id', 'Line.train_line', 'Line.route', 'Line.operator_id'), 
-                                                        'order' => array('Line.run_number' => 'asc')));
+            'order' => array('Line.run_number' => 'asc')));
         }
         else
         {
             $this->Line->data = $this->Line->find('all');
         }
-        
+
         $this->set('lines', $this->Line->data);
     }
 
@@ -34,7 +34,7 @@ class LinesController extends AppController {
         }
 
         $line = $this->Line->findById($id);
-        
+
         if(!$line)
         {
             throw new NotFoundException('Invalid line');
@@ -86,15 +86,22 @@ class LinesController extends AppController {
         if($this->request->is('post'))
         {
             $this->Line->create();
-            
-            if($this->Line->save($this->request->data))
-            {
-                $this->Session->setFlash('Your line has been saved');
-                $this->redirect(array('controller' => 'lines', 'action' => 'index'));
+
+            try
+            { 
+                if($this->Line->save($this->request->data))
+                {
+                    $this->Session->setFlash('Your line has been saved');
+                    $this->redirect(array('controller' => 'lines', 'action' => 'index'));
+                }
+                else
+                {
+                    $this->Session->setFlash('Unable to add your line.');
+                }
             }
-            else
+            catch(Exception $e)
             {
-                $this->Session->setFlash('Unable to add your line.');
+                $this->Session->setFlash('Record already exists');
             }
         }
     }
@@ -104,7 +111,6 @@ class LinesController extends AppController {
 
         if($this->request->is('post'))
         {
-            $this->log('post!');
             if(!empty($this->request->data))
             {
 
@@ -126,25 +132,37 @@ class LinesController extends AppController {
                     }
                     else
                     {
-                        $file = fopen("/var/www/lines/webroot/files/uploads/".$this->Line->data['Line']['file']['name'], "r");
+                        $file = new File('files/uploads/'.$this->request->data['Line']['file']['name']);
 
-                        $this->log($file);
-                        if($file)
+                        $strings = $file->read(true, 'r');
+
+                        $strings = explode("\n", $strings);
+
+                        $count = 0;
+
+                        foreach($strings as $string)
                         {
-                            $this->log('in if');
-                            while(!feof($file))
+                            if($count != 0)
                             {
-                                $line = fgets($file);
-                        
-                                $this->log($line);
+
+                                $this->Line->create();
+                                $tmp = explode(',', $string);
+
+                                $this->Line->set(array('train_line' => $tmp[0], 'route' => $tmp[1], 'run_number' => $tmp[2], 'operator_id' => $tmp[3]));
+
+                                $result = $this->Line->save();
+
+                                if(!$result)
+                                {
+                                    $this->Session->setFlash('Failed to import csv.');
+                                    $this->redirect($this->here);
+                                }
                             }
+
+                            $count++;
                         }
 
-                        fclose($file);
-
-                         
-
-
+                        $this->redirect(array('controller' => 'lines', 'action' => 'index'));
                     }
 
 

@@ -1,4 +1,5 @@
 <?php
+echo $this->element('menu');
 
 
 echo $this->Html->div('content', implode("\n", array(
